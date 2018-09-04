@@ -9,8 +9,5 @@ class EmailParser
   end
   def parse
     arr = @str.split(/[, ]/).reject{|c| c.empty?}.uniq
-    # arr.map do |email|
-    #   email.strip
-    # end.uniq
   end
 end
